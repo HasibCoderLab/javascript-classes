@@ -1,19 +1,21 @@
 // ===================|     Example 01    |==================
-class ToyotaCar {
-    start() {
-        console.log("Start");
-
-    }
-
-    stop(){
-        console.log("Stop");
+class ToyotaCars {
+    start(){
+        console.log("Run The Car");
         
     }
-    setBrand(Brand){
-        this.BrandVar = Brand
+
+    Stop(){
+        console.log("Break The Car");
+        
     }
+    setBrand(brand){
+        this.BradVar = brand 
+    }
+
 }
 
-let fortuner = new ToyotaCar();
-fortuner.setBrand("Fortuner")
-let lexus = new ToyotaCar();
+let fortuner = new ToyotaCars();
+fortuner.setBrand("Fortuner");
+let lexus = new ToyotaCars();
+lexus.setBrand("Lexus");
