@@ -24,22 +24,21 @@
 
 
 // ===================|   *constructor *    |===========================
-class subjects {
-    constructor(subPosition, marks) {
-        console.log("Pain Subjects");
-        this.subPosition = subPosition;
-        this.marks = marks;
+class city {
+    constructor(star, people) {
+        console.log("Best Cities of Bangladesh");
+        this.star = star;
+        this.people = people;
 
-    }
-    Math() {
-        console.log("Want you solve using formula");
+    };
+    Rajshahi() {
+        console.log("This is a clean City .");
 
-    }
+    };
+    khulna() {
+        console.log("This is very Beautyful City");
 
-    physics() {
-        console.log("Formula And Formula");
-
-    }
-}
-let painSub1 = new subjects(1, 49); //constructor
-let painSub2 = new subjects(2,59);//  constructor
+    };
+};
+let city1 = new city( "5*", 10000);
+let city2 = new city("3*" , 1000); 
