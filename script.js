@@ -25,19 +25,21 @@
 
 // ===================|   *constructor *    |===========================
 class subjects {
-    constructor() {
-          console.log("Pain Subjects");
-          
+    constructor(subPosition, marks) {
+        console.log("Pain Subjects");
+        this.subPosition = subPosition;
+        this.marks = marks;
+
     }
     Math() {
         console.log("Want you solve using formula");
 
     }
 
-    physics(){
+    physics() {
         console.log("Formula And Formula");
-        
+
     }
 }
-let painSub1 = new subjects(); //constructor
-let painSub2 = new subjects();//  constructor
+let painSub1 = new subjects(1, 49); //constructor
+let painSub2 = new subjects(2,59);//  constructor
